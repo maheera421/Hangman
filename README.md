@@ -6,7 +6,6 @@ This code represents a text-based Hangman game. Hangman is a word guessing game 
 🚀 How the Game Works:
 
 • The game starts by printing a Hangman logo using ASCII art.
-
 • A random word is chosen from a list of words. 
 
 • The code creates a list called display to represent the current state of the word being guessed. Initially, it contains underscores (_) in the same quantity as the letters in the chosen word.
