@@ -1,9 +1,9 @@
 # Hangman
-Game Description:
+🎮 Game Description:
 
 This code represents a text-based Hangman game. Hangman is a word guessing game where the player must guess letters to fill in the blanks of a hidden word. The player has a limited number of lives, and if they guess incorrectly too many times, they lose. The objective is to guess all the letters in the word before running out of lives.
 
-How the Game Works:
+🚀 How the Game Works:
 
 • The game starts by printing a Hangman logo using ASCII art.
 
@@ -29,7 +29,7 @@ g. At each step, a Hangman ASCII art corresponding to the remaining lives is pri
 
 • The game ends, and a message is printed to inform the player if they won or lost.
 
-Code Specifications:
+📝 Code Specifications:
 
 • The code imports two modules: hangman_art and hangman_words. These modules are kept private and can be accessed upon request.
 
