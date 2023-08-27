@@ -5,13 +5,13 @@ This code represents a text-based Hangman game. Hangman is a word guessing game 
 
 How the Game Works:
 
-The game starts by printing a Hangman logo using ASCII art.
+• The game starts by printing a Hangman logo using ASCII art.
 
-A random word is chosen from a list of words. 
+• A random word is chosen from a list of words. 
 
-The code creates a list called display to represent the current state of the word being guessed. Initially, it contains underscores (_) in the same quantity as the letters in the chosen word.
+• The code creates a list called display to represent the current state of the word being guessed. Initially, it contains underscores (_) in the same quantity as the letters in the chosen word.
 
-The game then enters a loop that continues until one of the end conditions is met (the player wins or loses). In each iteration of the loop:
+• The game then enters a loop that continues until one of the end conditions is met (the player wins or loses). In each iteration of the loop:
 
 a. The player is prompted to input a letter to guess.
 
@@ -27,21 +27,21 @@ f. The game checks if there are no underscores left in the display list, which m
 
 g. At each step, a Hangman ASCII art corresponding to the remaining lives is printed to visually represent the Hangman figure. 
 
-The game ends, and a message is printed to inform the player if they won or lost.
+• The game ends, and a message is printed to inform the player if they won or lost.
 
 Code Specifications:
 
-The code imports two modules: hangman_art and hangman_words. These modules are kept private and can be accessed upon request.
+• The code imports two modules: hangman_art and hangman_words. These modules are kept private and can be accessed upon request.
 
-The game starts with 6 lives, but this can be adjusted by changing the lives variable.
+• The game starts with 6 lives, but this can be adjusted by changing the lives variable.
 
-The player can input lowercase letters to make guesses.
+• The player can input lowercase letters to make guesses.
 
-The game displays the current state of the word with underscores for unrevealed letters and reveals correctly guessed letters.
+• The game displays the current state of the word with underscores for unrevealed letters and reveals correctly guessed letters.
 
-The player wins by guessing all the letters before running out of lives, and they lose if they run out of lives.
+• The player wins by guessing all the letters before running out of lives, and they lose if they run out of lives.
 
-The Hangman figure is visually represented as ASCII art at different stages based on the number of remaining lives.
+• The Hangman figure is visually represented as ASCII art at different stages based on the number of remaining lives.
 
 Note:
 
