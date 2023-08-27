@@ -1,5 +1,5 @@
 # Hangman
-🎮 Game Description:
+# 🎮 Game Description:
 
 This code represents a text-based Hangman game. Hangman is a word guessing game where the player must guess letters to fill in the blanks of a hidden word. The player has a limited number of lives, and if they guess incorrectly too many times, they lose. The objective is to guess all the letters in the word before running out of lives.
 
