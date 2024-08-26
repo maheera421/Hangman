@@ -33,7 +33,7 @@ g. At each step, a Hangman ASCII art corresponding to the remaining lives is pri
 
 # 📝 Code Specifications:
 
-• The code imports two modules: hangman_art and hangman_words. These modules are kept private and can be accessed upon request.
+• The code imports two modules: hangman_art and hangman_words. 
 
 • The game starts with 6 lives, but this can be adjusted by changing the lives variable.
 
@@ -46,9 +46,7 @@ g. At each step, a Hangman ASCII art corresponding to the remaining lives is pri
 • The Hangman figure is visually represented as ASCII art at different stages based on the number of remaining lives.
 
 
-# Note:
 
-The hangman_words and hangman_art modules are kept private but can be accessed upon request. This will help you understand the dependencies of the code, in comprehending what external resources or components the code relies on.
 
 
 
